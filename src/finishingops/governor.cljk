@@ -174,6 +174,7 @@
     :flag-safety-concern :coordinate-shipment
     ;; ガーメント装飾（Tシャツ等への捺染）の工程。ISIC 1313 の includes に
     ;; `printing on textiles and clothing` が明記されており、ここがその置き場所。
+    ;; Source: ISIC Rev.4, United Nations Statistics Division. © United Nations.
     ;; 受注 → 版下 → 校正 → 刷り → 検品（`finishingops.decoration/stages`）。
     :register-decoration-order :attach-plate-plan :request-proof-approval
     :log-print-run :log-decoration-inspection

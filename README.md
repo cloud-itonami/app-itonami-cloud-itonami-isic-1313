@@ -22,6 +22,7 @@ Proposes **plant operations coordination**, not machine operation:
 ISIC 1313 の includes に `printing on textiles and clothing` が明記されており、
 衣類への捺染はこの vertical の担当。工程は **受注 → 版下 → 校正 → 刷り → 検品**
 （`finishingops.decoration/stages`）で、順序は飛ばせない。
+Source: ISIC Rev.4, United Nations Statistics Division. © United Nations.
 
 - `:register-decoration-order` — 受注（ボディ・枚数・刷り位置・納期）
 - `:attach-plate-plan` — 版下。製版エンジン [`cloud-itonami/shirohan`](https://github.com/cloud-itonami/shirohan)
